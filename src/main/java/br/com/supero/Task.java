@@ -1,10 +1,12 @@
 package br.com.supero;
 
 import javax.persistence.Entity;
+import javax.persistence.Id;
 
 @Entity
 public class Task {
 	
+	@Id
 	private Long id;
 	
 	private String text;
